@@ -16,7 +16,7 @@ public class App {
         // The current date
         Date today = new Date();
         // Format for today date
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM=dd");
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-mm-dd");
         SimpleDateFormat formatterYear = new SimpleDateFormat("yyyy");
         // Format the date and store it in a string
         String strTodaysDate = formatter.format(today);
@@ -89,11 +89,11 @@ public class App {
 
         // this is a unit test - we are testing the Animal constructor we just created
 
-        Animal myNewAnimal = new Animal("male", 4, 70, "Hy01", "Zig", "2020-3-21", "black spots", "From San Diego Zoo");
+        Jose.zoo.com.Animal myNewAnimal = new Jose.zoo.com.Animal("male", 4, 70, "Hy01", "Zig", "2020-3-21", "black spots", "From San Diego Zoo");
 
         // Prove it!
         System.out.println("\n this is the new animal!\n");
-        System.out.println("\n ID is: " myNewAnimal.getAnimalID() + " " + myNewAnimal.getAnimalName() + "\n");
+        System.out.println("\n ID is: " + myNewAnimal.getAnimalID() + " " + myNewAnimal.getAnimalName() + "\n");
 
 
     }
