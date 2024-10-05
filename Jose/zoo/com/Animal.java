@@ -7,7 +7,7 @@ public class Animal {
     static int numOfAnimals = 0;
 
     // Create a constructor for our new Animal objects
-    public Animal(String someName) {
+    public Animal(String someName, int age, int weight, String hy01, String zig, String date, String blackSpots, String fromSanDiegoZoo) {
         numOfAnimals++;
     }
 
