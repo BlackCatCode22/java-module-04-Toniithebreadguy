@@ -6,7 +6,7 @@ public class Hyena extends Jose.zoo.com.Animal {
 
     // Create a constructor.
     public Hyena(String someName) {
-        super(someName);
+        super(someName, 4, 70, "Hy01", "Zig", "2020-3-21", "black spots", "From San Diego Zoo");
         numOfHyenas++;
     }
 }
